@@ -108,7 +108,7 @@ internal class VerticalCardSwiperFlowLayout: UICollectionViewFlowLayout {
         let currentPage = velocity.y == 0.0 ? round(approximatePage) : (velocity.y < 0.0 ? floor(approximatePage) : ceil(approximatePage))
 
         // Create custom flickVelocity.
-        let flickVelocity = velocity.y * 0.3
+        let flickVelocity = 0.0
 
         // Check how many pages the user flicked, if <= 1 then flickedPages should return 0.
         let flickedPages = (abs(round(flickVelocity)) <= 1) ? 0 : round(flickVelocity)
