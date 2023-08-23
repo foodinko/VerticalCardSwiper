@@ -1,4 +1,4 @@
-<h1 align="center"> VerticalCardSwiper </h1>
+<h1 align="center"> VerticalCardSwiper : Using in FoodinNew </h1>
 
 <div align="center">
     A marriage between the Shazam Discover UI and Tinder, built with UICollectionView in Swift.
